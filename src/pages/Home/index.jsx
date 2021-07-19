@@ -1,5 +1,8 @@
 import React from 'react';
 
+// Components
+import Game from '../Game';
+
 const Home = () => {
   return (
     <>
@@ -35,6 +38,7 @@ const Home = () => {
           <button className="btn btn-success">Start new Game</button>
         </form>
       </div>
+      <Game />
     </>
   )
 }
