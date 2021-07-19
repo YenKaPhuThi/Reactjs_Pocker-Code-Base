@@ -4,8 +4,6 @@ import React from 'react';
 import Card from '../Card';
 
 const Player = (props) => {
-  console.log("props", props);
-
   return (
     <div className={`player-${props.index}`}>
       <p className="lead">Player Name</p>
